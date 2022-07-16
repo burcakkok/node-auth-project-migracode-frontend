@@ -1,17 +1,10 @@
-
-import './App.css';
-import Home from './Home';
-import Login from './Login';
-import SignUp from './SignUp';
+import "./App.css";
+import Home from "./Home";
+import Login from "./Login";
+import SignUp from "./SignUp";
 
 function App() {
-  return (
-    <div className="App">
-      <Home />
-      <Login />
-      <SignUp />
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;

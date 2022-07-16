@@ -5,8 +5,11 @@ const SignUp = () => {
     <>
       <h1>Sign Up</h1>
       <div>
-        <label for="username">Username</label>
-        <input type="text" name="username" id="" />
+        <label for="name">Name</label>
+        <input type="text" name="name" id="" />
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="" />
 
         <label for="password">Password</label>
         <input type="password" name="password" id="" />

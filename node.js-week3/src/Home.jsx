@@ -6,8 +6,8 @@ const Home = () => {
       <h1>Welcome!</h1>
 
       <div>
-        <button>Login</button>
-        <button>Sign up</button>
+        <a href="login">Sign In</a>
+        <a href="signup">Sign Up</a>
       </div>
     </>
   );
